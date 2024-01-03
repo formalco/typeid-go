@@ -3,7 +3,7 @@ package typed_test
 import (
 	"fmt"
 
-	typeid "go.jetpack.io/typeid/typed"
+	typeid "github.com/formalco/typeid/typed"
 )
 
 type userPrefix struct{}
@@ -30,5 +30,5 @@ func Example() {
 	// Output:
 	// User ID prefix: user
 	// Account ID prefix: account
-	// typed.TypeID[go.jetpack.io/typeid/typed_test.UserID] != typed.TypeID[go.jetpack.io/typeid/typed_test.AccountID]
+	// typed.TypeID[github.com/formalco/typeid/typed_test.UserID] != typed.TypeID[github.com/formalco/typeid/typed_test.AccountID]
 }

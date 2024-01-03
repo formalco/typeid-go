@@ -1,6 +1,6 @@
-module go.jetpack.io/typeid
+module github.com/formalco/typeid
 
-go 1.20
+go 1.21.5
 
 require (
 	github.com/gofrs/uuid/v5 v5.0.0

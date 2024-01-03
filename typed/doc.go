@@ -18,7 +18,7 @@
 // new ID of type user:
 //
 //	import (
-//		typeid "go.jetpack.io/typeid/typed"
+//		typeid "github.com/formalco/typeid/typed"
 //	)
 //
 //	user_id, _ := typeid.New[UserID]()

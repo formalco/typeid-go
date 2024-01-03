@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/formalco/typeid"
 	"github.com/stretchr/testify/assert"
-	"go.jetpack.io/typeid"
 	"gopkg.in/yaml.v2"
 )
 

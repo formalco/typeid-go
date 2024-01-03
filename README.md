@@ -1,6 +1,6 @@
 # TypeID Go
 ### A golang implementation of [TypeIDs](https://github.com/jetpack-io/typeid)
-![License: Apache 2.0](https://img.shields.io/github/license/jetpack-io/typeid-go) [![Go Reference](https://pkg.go.dev/badge/go.jetpack.io/typeid.svg)](https://pkg.go.dev/go.jetpack.io/typeid)
+![License: Apache 2.0](https://img.shields.io/github/license/jetpack-io/typeid-go) [![Go Reference](https://pkg.go.dev/badge/github.com/formalco/typeid.svg)](https://pkg.go.dev/github.com/formalco/typeid)
 
 TypeIDs are a modern, **type-safe**, globally unique identifier based on the upcoming
 UUIDv7 standard. They provide a ton of nice properties that make them a great choice
@@ -14,7 +14,7 @@ This particular implementation provides a go library for generating and parsing 
 To add this library as a dependency in your go module, run:
 
 ```bash
-go get go.jetpack.io/typeid
+go get github.com/formalco/typeid
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ To use it, first define your TypeID types:
 
 ```go
 import (
-  typeid "go.jetpack.io/typeid/typed"
+  typeid "github.com/formalco/typeid/typed"
 )
 
 type userPrefix struct{}
@@ -39,7 +39,7 @@ And now use those types to generate TypeIDs:
 
 ```go
 import (
-  typeid "go.jetpack.io/typeid/typed"
+  typeid "github.com/formalco/typeid/typed"
 )
 
 func example() {
@@ -52,7 +52,7 @@ If you don't want static types, you can use the dynamic version instead:
   
 ```go
 import (
-  "go.jetpack.io/typeid"
+  "github.com/formalco/typeid"
 )
 
 func example() {
@@ -61,4 +61,4 @@ func example() {
 }
 ```
 
-For the full documentation, see this package's [godoc](https://pkg.go.dev/go.jetpack.io/typeid).
+For the full documentation, see this package's [godoc](https://pkg.go.dev/github.com/formalco/typeid).

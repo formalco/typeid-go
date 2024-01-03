@@ -3,7 +3,7 @@ package typed
 import (
 	"fmt"
 
-	untyped "go.jetpack.io/typeid"
+	untyped "github.com/formalco/typeid"
 )
 
 // TypePrefix is an interface used to represent a statically checked type prefix.
